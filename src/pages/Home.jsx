@@ -13,8 +13,8 @@ const Home = () => {
             <Banner></Banner>
             <Features></Features>
             <Pricing></Pricing>
-            {/* <FreeAccountBanner></FreeAccountBanner> */}
-            {/* <Footer></Footer> */}
+            <FreeAccountBanner></FreeAccountBanner>
+            <Footer></Footer>
         </div>
     );
 };
