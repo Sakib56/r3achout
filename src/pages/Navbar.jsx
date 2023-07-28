@@ -33,7 +33,7 @@ const Navbar = () => {
             </div>
             <div className="navbar-end">
                 <p className='mr-3 hidden md:block'>See how its works</p>
-                <a className="rounded-s-full rounded-e-full px-5 py-2 bg-white text-green-600">Login</a>
+                <Link to='/login'><a className="rounded-s-full rounded-e-full px-5 py-2 bg-white text-green-600">Login</a></Link>
             </div>
         </div>
     );
