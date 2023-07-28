@@ -10,6 +10,7 @@ import Main from './Layout/Main.jsx';
 import Home from './pages/Home.jsx';
 import Login from './pages/Login/Login.jsx';
 import Resister from './pages/Login/Resister.jsx';
+import Dashboard from './Layout/Dashboard.jsx';
 
 const router = createBrowserRouter([
   {
@@ -27,6 +28,10 @@ const router = createBrowserRouter([
       {
         path:'/resister',
         element:<Resister></Resister>
+      },
+      {
+        path:'/dashboard',
+        element:<Dashboard></Dashboard>
       }
     ]
   },
