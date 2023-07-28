@@ -8,7 +8,7 @@ import { faCheckCircle, faCoffee, faXmarkCircle } from '@fortawesome/free-solid-
 const PricingCard = () => {
     return (
         <>
-            <div className='shadow-2xl p-8 bg-white'>
+            <div className='shadow-2xl p-5 bg-white rounded-lg'>
                 <div className='flex items-center gap-5'>
                     <img src={pIcons3} alt="" />
                     <div>
@@ -67,13 +67,13 @@ const PricingCard = () => {
                 </div>
 
             </div>
-            <div className='shadow-2xl p-8 bg-white'>
+            <div className='shadow-2xl p-5 bg-white rounded-lg'>
                 <div className='flex items-center gap-5'>
                     <img src={pIcons3} alt="" />
                     <div>
-                        <h1 className='text-4xl font-bold'>Free</h1>
-                        <p className='text-xl font-bold'>4000 words / Month</p>
-                        <p className='text-green-500'>No Credit card required</p>
+                        <h1 className='text-4xl font-bold'>Day Pass</h1>
+                        <p className='text-xl font-bold'>Unlimited access</p>
+                       <p></p>
                     </div>
                 </div>
                 <h1 className='my-4'><span className='text-3xl text-[#0C579B] font-bold'>$00</span>/Month</h1>
@@ -108,11 +108,11 @@ const PricingCard = () => {
                     <p>Interview questions</p>
                 </div>
                 <div className='flex items-center gap-5 mt-3 font-semibold'>
-                    <FontAwesomeIcon className='text-gray-400 text-lg' icon={faXmarkCircle} />
+                    <FontAwesomeIcon className='text-green-600 text-lg' icon={faCheckCircle} />
                     <p>Metrics Analysis & <br /> recommendations</p>
                 </div>
                 <div className='flex items-center gap-5 mt-3 font-semibold'>
-                    <FontAwesomeIcon className='text-gray-400 text-lg' icon={faXmarkCircle} />
+                    <FontAwesomeIcon className='text-green-600 text-lg' icon={faCheckCircle} />
                     <p>Any new features</p>
                 </div>
 
@@ -122,20 +122,20 @@ const PricingCard = () => {
                 </div>
 
                 <div className='text-center'>
-                    <button className='btn btn-outline rounded-s-full rounded-e-full text-blue-700 w-full px-3 mt-5'>Sign Up for free</button>
+                    <button className='btn btn-outline rounded-s-full rounded-e-full text-blue-700 w-full px-3 mt-5'>Try it out of day</button>
                 </div>
 
             </div>
-            <div className='shadow-2xl p-8 bg-white'>
+            <div className='shadow-2xl p-5 bg-white rounded-lg'>
                 <div className='flex items-center gap-5'>
                     <img src={pIcons3} alt="" />
                     <div>
                         <h1 className='text-4xl font-bold'>Free</h1>
-                        <p className='text-xl font-bold'>4000 words / Month</p>
-                        <p className='text-green-500'>No Credit card required</p>
+                        <p className='text-xl font-bold'>Unlimited access</p>
+                        
                     </div>
                 </div>
-                <h1 className='my-4'><span className='text-3xl text-[#0C579B] font-bold'>$00</span>/Month</h1>
+                <h1 className='my-4'><span className='text-3xl text-[#0C579B] font-bold'>$69</span>/Month</h1>
                 <p className='text-lg font-bold mb-3'>What's Included</p>
                 <div className='flex items-center gap-5 font-semibold'>
                     <FontAwesomeIcon className='text-green-600 text-lg' icon={faCheckCircle} />
@@ -181,7 +181,7 @@ const PricingCard = () => {
                 </div>
 
                 <div className='text-center'>
-                    <button className='btn btn-outline rounded-s-full rounded-e-full text-blue-700 w-full px-3 mt-5'>Sign Up for free</button>
+                    <button className='btn btn-outline rounded-s-full rounded-e-full text-white bg-[#0C579B] w-full px-3 mt-5'>Get Started</button>
                 </div>
 
             </div>

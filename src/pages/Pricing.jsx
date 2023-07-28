@@ -14,7 +14,7 @@ const Pricing = () => {
                     <p>Monthly</p>
                 </div>
             </div>
-            <div className='grid lg:grid-cols-3 gap-7 absolute top-1/2 max-w-6xl mx-auto'>
+            <div className='grid lg:grid-cols-3 gap-7 absolute top-1/2 left-32 max-w-6xl mx-auto'>
                 <PricingCard></PricingCard>
             </div>
         </section >
