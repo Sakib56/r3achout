@@ -11,7 +11,9 @@ const Home = () => {
         <div className='bg-[#F4F7FB]'>
             <Navbar></Navbar>
             <Banner></Banner>
-            <Features></Features>
+            <div className='lg:mt-[650px]'>
+                <Features></Features>
+            </div>
             <Pricing></Pricing>
             <FreeAccountBanner></FreeAccountBanner>
             <Footer></Footer>
